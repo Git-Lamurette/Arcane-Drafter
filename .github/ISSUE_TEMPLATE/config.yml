@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question / Discussion
+    url: https://github.com/Git-Lamurette/Arcane-Drafter/issues/new?labels=question&template=
+    about: Have a general question? Open a regular issue and apply the "question" label.
