@@ -9,6 +9,6 @@ By participating in this repository (issues, discussions, wiki edits) you agree 
 If you see behaviour that violates the Code of Conduct, please report it by opening a private channel with the maintainer:
 
 - Open a confidential issue and tag `@Git-Lamurette`, or
-- Contact the maintainer directly via the email listed on their GitHub profile.
+- Contact the maintainer directly at **Trent.L.ODell@gmail.com**.
 
 Reports will be reviewed and handled as outlined in the Contributor Covenant.
