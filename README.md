@@ -24,7 +24,7 @@ If you're new here, the [Wiki](../../wiki) is the best place to start.
 Arcane-Drafter is built by **Git-Lamurette**, a solo developer. It's a passion project, so development happens in spare time and the roadmap is driven largely by what users ask for.
 
 - GitHub: [@Git-Lamurette](https://github.com/Git-Lamurette)
-- Discord: _coming soon_ <!-- TODO: replace with Discord invite URL -->
+- Discord: [Join the server](https://discord.gg/bVzJczkYQ)
 
 If you'd like to chat, share feedback, or follow along with development, those are the best places to find me.
 
