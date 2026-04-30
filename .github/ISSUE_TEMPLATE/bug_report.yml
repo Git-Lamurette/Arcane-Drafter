@@ -69,13 +69,15 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Logs, screenshots, or project files
+      label: Console output, screenshots, or project files
       description: |
-        Attach anything that helps diagnose the issue (screenshots, exported logs, the `.tres` / project file that triggers the bug). Drag files into the box to upload.
-        Godot's user data folder (where logs typically live):
-        - Windows: `%APPDATA%\Godot\app_userdata\Arcane-Drafter`
-        - macOS: `~/Library/Application Support/Godot/app_userdata/Arcane-Drafter`
-        - Linux: `~/.local/share/godot/app_userdata/Arcane-Drafter`
+        Arcane-Drafter doesn't write log files yet, so the best way to capture errors is to **launch the tool from a terminal / console** and copy any traceback or error text it prints when the bug occurs.
+
+        - **Windows:** open `cmd` or PowerShell, `cd` into the install folder, run the executable from there
+        - **macOS:** open Terminal, run the binary directly (e.g. `./Arcane-Drafter.app/Contents/MacOS/Arcane-Drafter`)
+        - **Linux:** run the binary from a terminal (e.g. `./Arcane-Drafter.x86_64`)
+
+        Paste the console output below, and feel free to attach screenshots or the project file that triggers the bug by dragging them into this box.
     validations:
       required: false
 
