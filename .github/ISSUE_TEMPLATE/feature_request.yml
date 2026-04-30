@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an idea or improvement for Arcane-Drafter.
+description: Suggest an idea or improvement for the Arcane-Drafter map-making tool.
 title: "[Feature]: "
 labels: ["feature", "needs-triage"]
 body:
@@ -14,8 +14,8 @@ body:
     id: problem
     attributes:
       label: What problem does this solve?
-      description: Describe the player experience or pain point this would address.
-      placeholder: "When I'm drafting late-game, I struggle to..."
+      description: Describe the workflow or pain point this would address.
+      placeholder: "When I'm laying out a dungeon map, I struggle to..."
     validations:
       required: true
 
@@ -39,7 +39,7 @@ body:
     id: additional
     attributes:
       label: Additional context
-      description: Mockups, references to other games, related issues, etc.
+      description: Mockups, references to other map-making tools, related issues, etc.
     validations:
       required: false
 
