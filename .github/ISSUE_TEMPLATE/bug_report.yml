@@ -1,0 +1,100 @@
+name: Bug report
+description: Report something that's broken or behaving unexpectedly in the Arcane-Drafter map-making tool.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report. Please fill out the fields below so the issue can be reproduced and triaged quickly.
+
+        Before submitting, please [search existing issues](https://github.com/Git-Lamurette/Arcane-Drafter/issues?q=is%3Aissue) to avoid duplicates.
+
+  - type: input
+    id: version
+    attributes:
+      label: Tool version
+      description: Which version of Arcane-Drafter are you running? (Visible in the About dialog or window title.)
+      placeholder: "e.g. 0.3.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other (please specify in additional context)
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: "e.g. Windows 11 23H2, macOS 14.4, Ubuntu 24.04"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear, concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimal, ordered steps that reliably trigger the bug.
+      placeholder: |
+        1. Open Arcane-Drafter and create a new map...
+        2. Place a tile / use tool X...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output, screenshots, or project files
+      description: |
+        Arcane-Drafter doesn't write log files yet, so the best way to capture errors is to **launch the tool from a terminal / console** and copy any traceback or error text it prints when the bug occurs.
+
+        - **Windows:** open `cmd` or PowerShell, `cd` into the install folder, run the executable from there
+        - **macOS:** open Terminal, run the binary directly (e.g. `./Arcane-Drafter.app/Contents/MacOS/Arcane-Drafter`)
+        - **Linux:** run the binary from a terminal (e.g. `./Arcane-Drafter.x86_64`)
+
+        Paste the console output below, and feel free to attach screenshots or the project file that triggers the bug by dragging them into this box.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else that might be relevant — hardware, display scaling, recent updates, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true
+        - label: I agree to follow this project's Code of Conduct.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and general discussion
+    url: https://github.com/Git-Lamurette/Arcane-Drafter/discussions
+    about: Use Discussions for questions, ideas, and chat that aren't bug reports or concrete feature requests.
+  - name: FAQ and guides
+    url: https://github.com/Git-Lamurette/Arcane-Drafter/wiki
+    about: Check the Wiki for known issues, workarounds, and how-to guides before filing.
